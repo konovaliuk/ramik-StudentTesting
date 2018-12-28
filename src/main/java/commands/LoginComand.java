@@ -27,6 +27,7 @@ public class LoginComand implements Command {
         System.out.println(password);
         User user = null;
 
+
         user = loginService.findUserByEmail(email);
         System.out.println(user);
         if(user!=null && user.getPassword().equals(password) && user.getRole().equals("STUDENT")){

@@ -12,4 +12,5 @@ public interface ChapterDao {
     void update(int id, String name, Integer idTestCase, Connection connection);
     void delete(Chapter chapter, Connection connection);
     List<Chapter> getAll(Connection connection);
+
 }

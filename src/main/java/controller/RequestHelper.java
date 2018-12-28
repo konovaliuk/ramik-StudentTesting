@@ -27,6 +27,7 @@ public final class RequestHelper {
 
     }
 
+
     public Command getCommand(HttpServletRequest request) {
         String commandName = request.getParameter("command");
         if (commandName == null) {

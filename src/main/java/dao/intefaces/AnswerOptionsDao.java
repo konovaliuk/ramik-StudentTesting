@@ -12,4 +12,5 @@ public interface AnswerOptionsDao {
     void update(int id, Integer questionId, String text, int isCorrect, Connection connection);
     void delete(AnswerOption answerOption, Connection connection);
     List<AnswerOption> getAll(Connection connection);
+
 }

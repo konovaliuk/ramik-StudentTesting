@@ -27,6 +27,7 @@ public class RegistationComand implements Command {
             return "userpage.jsp";
 
         }
+
         request.setAttribute("errormessage", "cant create");
         return "error.jsp";
 

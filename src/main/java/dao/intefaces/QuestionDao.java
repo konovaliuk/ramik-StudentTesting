@@ -12,3 +12,4 @@ public interface QuestionDao {
     void delete(Question question, Connection connection);
     List<Question> getAll(Connection connection);
 }
+

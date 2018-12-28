@@ -12,4 +12,5 @@ public interface UserDao {
     void update(int id, String email, String password, String firstName, String lastName, Connection connection);
     void delete(User user, Connection connection);
     List<User> getAll(Connection connection);
+
 }

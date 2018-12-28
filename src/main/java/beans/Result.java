@@ -10,6 +10,7 @@ public class Result implements Serializable {
 
     public Result() {
     }
+
     
     private Result(Builder builder){
         this.id = builder.id;

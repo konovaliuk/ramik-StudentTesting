@@ -13,3 +13,4 @@ public interface ResultDao {
     void delete(Result result, Connection connection);
     List<Result> getAll(Connection connection);
 }
+

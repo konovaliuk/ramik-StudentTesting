@@ -33,6 +33,7 @@ public class ResultDaoImpl implements ResultDao {
         return id;
     }
 
+
     @Override
     public Result read(int id, Connection connection) {
         Result result = null;

@@ -13,3 +13,4 @@ public interface UsersAnswersDao {
     void delete(UsersAnswers usersAnswers, Connection connection);
     List<UsersAnswers> getAll(Connection connection);
 }
+

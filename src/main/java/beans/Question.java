@@ -10,6 +10,7 @@ public class Question implements Serializable {
 
     public Question() {
     }
+
     
     private Question(Builder builder){
         this.id = builder.id;

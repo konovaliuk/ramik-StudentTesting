@@ -37,6 +37,7 @@ public class AnswerOptionsDaoImpl implements AnswerOptionsDao {
         return id;
     }
 
+
     @Override
     public AnswerOption read(int id, Connection connection) {
         AnswerOption answerOption = null;

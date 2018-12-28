@@ -10,6 +10,7 @@ public class AnswerOption implements Serializable {
 
     public AnswerOption() {
     }
+
     
     private AnswerOption(Builder builder){
         this.id = builder.id;

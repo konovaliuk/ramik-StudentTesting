@@ -84,6 +84,7 @@ public final class ConnectionPool {
         }
     }
 
+
     public static void transactionRollback(Connection connection) {
         if (connection != null) {
             try {

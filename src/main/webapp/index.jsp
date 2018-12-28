@@ -16,6 +16,7 @@
     <input type="submit" value="submit" name="command"/>
     <input type="submit" value="Registration" name="command"  />
 
+
   </form>
   </body>
 </html>

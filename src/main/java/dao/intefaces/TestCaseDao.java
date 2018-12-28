@@ -12,4 +12,5 @@ public interface TestCaseDao {
     void update(int id, String name, Connection connection);
     void delete(TestCase testCase, Connection connection);
     List<TestCase> getAll(Connection connection);
+
 }

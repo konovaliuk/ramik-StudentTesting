@@ -18,5 +18,6 @@ public class QuestionService {
         List<Question> questions =questionDao.getAll(connection);
 
         return questions;
+
     }
 }

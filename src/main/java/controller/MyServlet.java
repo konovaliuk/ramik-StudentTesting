@@ -29,4 +29,5 @@ public class MyServlet extends HttpServlet implements Servlet {
         String page = command.execute(request, response);
         request.getRequestDispatcher(page).forward(request, response);
     }
+
 }

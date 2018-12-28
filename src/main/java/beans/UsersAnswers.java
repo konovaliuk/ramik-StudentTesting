@@ -17,6 +17,7 @@ public class UsersAnswers implements Serializable{
         this.questionId = builder.questionId;
     }
 
+
     public int getId() {
         return id;
     }

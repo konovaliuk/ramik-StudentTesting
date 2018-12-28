@@ -16,5 +16,6 @@ public class ChapterService {
 
         List<Chapter> chapters = chapterDao.getAll(connection);
         return chapters;
+
     }
 }

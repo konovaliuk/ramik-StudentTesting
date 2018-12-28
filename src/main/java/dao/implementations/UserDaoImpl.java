@@ -78,6 +78,7 @@ public class UserDaoImpl implements UserDao {
 
     
 
+
     @Override
     public void delete(User user, Connection connection) {
         String sql = "DELETE FROM users WHERE id_user=?";

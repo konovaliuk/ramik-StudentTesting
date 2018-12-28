@@ -103,6 +103,7 @@ public class User implements Serializable {
             return this;
         }
 
+
         public Builder setEmail(String email) {
             this.email = email;
             return this;

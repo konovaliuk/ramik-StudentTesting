@@ -36,6 +36,7 @@ public class ChapterDaoImpl implements ChapterDao {
         return id;
     }
 
+
     @Override
     public Chapter read(int id, Connection connection) {
         Chapter chapter = null;

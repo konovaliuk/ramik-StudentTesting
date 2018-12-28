@@ -12,6 +12,7 @@ package exeptions;
 public class ExeptionDataBase extends RuntimeException  {
 
     public ExeptionDataBase() {
+
     }
     
     public ExeptionDataBase(String message){

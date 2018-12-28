@@ -12,3 +12,4 @@ public class ErrorComand implements Command {
         return "error.jsp";
     }
 }
+

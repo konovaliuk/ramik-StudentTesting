@@ -9,6 +9,7 @@
         Register new user
     </title>
 </head>
+
 <body>
 <h3>Register new user</h3><hr/>
 <form method="post">
